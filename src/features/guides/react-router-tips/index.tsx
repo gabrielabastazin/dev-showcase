@@ -42,7 +42,7 @@ export function ReactRouterTips() {
       <ApiDataSection />
       <SecurityFlowSection />
       <ResourcesSection />
-      <SimpleFooter />;
+      <SimpleFooter />
       <CTASection
         icon={Waypoints}
         title={t("cta.title")}

@@ -31,7 +31,7 @@ export function FundamentalsSection() {
 
         <AnimatedSection delay={0.1}>
           <p className="mb-10 max-w-3xl text-pretty leading-relaxed text-muted-foreground">
-            {t("apidata.description")}
+            {t("fundamentals.description")}
           </p>
         </AnimatedSection>
 

@@ -24,6 +24,11 @@ export function StructuresSection() {
             subtitle={t("structures.subtitle")}
           />
         </AnimatedSection>
+        <AnimatedSection delay={0.1}>
+          <p className="mb-10 max-w-3xl text-pretty leading-relaxed text-muted-foreground">
+            {t("structures.description")}
+          </p>
+        </AnimatedSection>
 
         <div className="flex flex-col gap-6 md:gap-10">
           {(t.raw("structures.items") as StructuresItem[]).map((item, i) => (
