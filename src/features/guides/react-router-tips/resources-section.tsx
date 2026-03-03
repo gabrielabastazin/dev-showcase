@@ -22,11 +22,6 @@ export function ResourcesSection() {
             subtitle={t("resources.subtitle")}
           />
         </AnimatedSection>
-        <AnimatedSection delay={0.1}>
-          <p className="mb-10 max-w-3xl text-pretty leading-relaxed text-muted-foreground">
-            {t("resources.description")}
-          </p>
-        </AnimatedSection>
         <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
           {(t.raw("resources.items") as ResourceItem[]).map((item, i) => (
             <AnimatedSection key={item.name} delay={0.1 + i * 0.05}>
