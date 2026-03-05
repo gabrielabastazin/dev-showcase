@@ -107,5 +107,7 @@
   "metrics": "Metrics",
   "metricsDesc": "Page views, visitors, reactions and Core Web Vitals",
   "performance": "Performance",
-  "performanceDesc": "Core Web Vitals and Lighthouse in real time"
+  "performanceDesc": "Core Web Vitals and Lighthouse in real time",
+  "reactRouterTips": "Navegação com React Router v6+",
+  "reactRouterTipsDesc": "Padrões, rotas dinâmicas, loaders, nested routes e outros."
 }

@@ -107,5 +107,8 @@
   "metrics": "Metriken",
   "metricsDesc": "Page views, Besucher, Reaktionen und Core Web Vitals",
   "performance": "Performance",
-  "performanceDesc": "Core Web Vitals und Lighthouse in Echtzeit"
+  "homeInicio": "Start",
+  "performanceDesc": "Core Web Vitals und Lighthouse in Echtzeit",
+  "reactRouterTips": "Navegação com React Router v6+",
+  "reactRouterTipsDesc": "Padrões, rotas dinâmicas, loaders, nested routes e outros."
 }
